@@ -54,7 +54,7 @@ class WebTablePageLocators:
 
 class ButtonsPageLocators:
     DOUBLE_BUTTON = (By.CSS_SELECTOR, "button[id='doubleClickBtn']")
-    RIGHT_CLICK_BUTTON = (By.CSS_SELECTOR, "button[id='rightClickBtn']")
+    CONTEXT_CLICK_BUTTON = (By.CSS_SELECTOR, "button[id='rightClickBtn']")
     CLICK_ME_BUTTON = (By.XPATH, "//div[3]/button")
 
     # result
